@@ -1,0 +1,12 @@
+[Unit]
+Description=Minecraft Spigot server
+After=network.target
+
+[Service]
+Type=simple
+User=minecraft
+WorkingDirectory=/home/minecraft/minecraft
+ExecStart=/usr/bin/java -Xms512M -Xmx1024M -jar spigot-1.13.2.jar
+
+[Install]
+WantedBy=multi-user.target

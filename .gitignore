@@ -1,2 +1,4 @@
 .idea
 *.iml
+*/__pycache__/*
+py3minepi-master/

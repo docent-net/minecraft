@@ -1,6 +1,6 @@
 [Distribution]
 Distribution=fedora
-Release=27
+Release=29
 
 [Output]
 Format=directory
@@ -8,6 +8,6 @@ Bootable=no
 
 [Packages]
 # The packages to appear in both the build and the final image
-Packages=openssh-clients vim-enhanced iproute iputils openssh-server dnf
+Packages=openssh-clients vim-enhanced iproute iputils openssh-server dnf java-9-openjdk java-9-openjdk-devel git maven
 # The packages to appear in the build image, but absent from the final image
 BuildPackages=make gcc libcurl-devel
